@@ -52,9 +52,11 @@ body {
 .todoapp h1 {
 	position: absolute;
 	top: -155px;
+    left: -270px;
 	width: 100%;
 	font-size: 100px;
 	font-weight: 100;
+	text-align: justify;
   text-transform: capitalize;
 	color: #b6880a;
 }
@@ -72,10 +74,7 @@ body {
 	box-sizing: border-box;
     border-radius: 10px;
 }
-.backButton {
-	padding: 6px;
-	padding-top: 50px;
-}
+
 .new-todo {
 	padding: 16px 16px 16px 60px;
 	border: none;
